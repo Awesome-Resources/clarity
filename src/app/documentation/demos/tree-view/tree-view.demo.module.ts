@@ -26,8 +26,8 @@ import {LazyLoadedLocationsComponent} from "./lazy-loading/lazy-loaded-locations
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
-        RouterModule,
+        ClarityModule,
+        RouterModule.forChild([{path: "", component: TreeViewDemo}]),
         DocWrapperModule
     ],
     declarations: [

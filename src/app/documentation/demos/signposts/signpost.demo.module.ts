@@ -23,7 +23,7 @@ import { SignpostTriggersDemo } from "./signpost-triggers.demo";
         CommonModule,
         FormsModule,
         ClarityModule,
-        RouterModule,
+        RouterModule.forChild([{path: "", component: SignpostDemo}]),
         DocWrapperModule,
         UtilsModule
     ],

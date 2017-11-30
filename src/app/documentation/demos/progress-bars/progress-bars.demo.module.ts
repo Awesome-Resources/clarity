@@ -24,9 +24,9 @@ import {DocWrapperModule} from "../_doc-wrapper/doc-wrapper.module";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         DocWrapperModule,
-        RouterModule
+        RouterModule.forChild([{path: "", component: ProgressBarsDemo}]),
     ],
     declarations: [
         ProgressBarExamplesDemo,

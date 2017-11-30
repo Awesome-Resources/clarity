@@ -17,8 +17,8 @@ import {RequiredFieldsDemo} from "./required-fields.demo";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
-        RouterModule,
+        ClarityModule,
+        RouterModule.forChild([{path: "", component: InputFieldsDemo}]),
         DocWrapperModule,
         UtilsModule
     ],

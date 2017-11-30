@@ -16,15 +16,15 @@ import {ListsInCardsDemo} from "./lists-in-cards";
 import {OldListsInCardsDemo} from "./old-lists-in-cards";
 import {ListsDemo} from "./lists.demo";
 import {RouterModule} from "@angular/router";
-import {DocWrapperModule} from "app/documentation/demos/_doc-wrapper/doc-wrapper.module";
+import {DocWrapperModule} from "../_doc-wrapper/doc-wrapper.module";
 import {UtilsModule} from "../../../utils/utils.module";
 
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         DocWrapperModule,
-        RouterModule,
+        RouterModule.forChild([{path: "", component: ListsDemo}]),
         UtilsModule
     ],
     declarations: [

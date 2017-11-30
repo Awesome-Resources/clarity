@@ -10,10 +10,6 @@ const appRoutes: Routes = [
         loadChildren: "app/get-started/get-started.module#GetStartedModule",
     },
     {
-        path: "documentation",
-        loadChildren: "app/documentation/documentation.module#DocumentationModule",
-    },
-    {
         path: "icons",
         loadChildren: "app/icons/icons.module#IconsModule",
         data: {

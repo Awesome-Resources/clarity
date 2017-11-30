@@ -36,10 +36,10 @@ import {UtilsModule} from "../../../utils/utils.module";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         FormsModule,
         DocWrapperModule,
-        RouterModule,
+        RouterModule.forChild([{path: "", component: WizardDemo}]),
         UtilsModule
     ],
     declarations: [

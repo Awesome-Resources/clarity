@@ -14,7 +14,7 @@ import {DocWrapper} from "./doc-wrapper";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         UtilsModule,
         RouterModule
     ],

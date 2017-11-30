@@ -23,8 +23,8 @@ import {UtilsModule} from "../../../utils/utils.module";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
-        RouterModule,
+        ClarityModule,
+        RouterModule.forChild([{path: "", component: DropdownsDemo}]),
         DocWrapperModule,
         UtilsModule
     ],

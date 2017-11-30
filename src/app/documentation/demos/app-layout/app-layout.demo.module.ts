@@ -16,10 +16,10 @@ import {UtilsModule} from "../../../utils/utils.module";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         DocWrapperModule,
         UtilsModule,
-        RouterModule
+        RouterModule.forChild([{path: "", component: AppLayoutDemo}])
     ],
     declarations: [
         AppLayoutDemo,

@@ -17,10 +17,10 @@ import {UtilsModule} from "../../../utils/utils.module";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         UtilsModule,
         DocWrapperModule,
-        RouterModule
+        RouterModule.forChild([{path: "", component: BadgesDemo}])
     ],
     declarations: [
         BadgeColorsDemo,

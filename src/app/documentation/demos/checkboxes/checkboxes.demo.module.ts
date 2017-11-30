@@ -20,9 +20,9 @@ import {UtilsModule} from "../../../utils/utils.module";
     imports: [
         CommonModule,
         FormsModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         DocWrapperModule,
-        RouterModule,
+        RouterModule.forChild([{path: "", component: CheckboxesDemo}]),
         UtilsModule
     ],
     declarations: [

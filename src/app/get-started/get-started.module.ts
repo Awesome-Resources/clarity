@@ -23,7 +23,7 @@ const route: Routes = [
     ],
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         UtilsModule,
         RouterModule.forChild(route)
     ],

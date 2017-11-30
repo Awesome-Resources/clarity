@@ -20,8 +20,8 @@ import { ClipboardInput } from "./clipboard-input";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
-        RouterModule,
+        ClarityModule,
+        RouterModule.forChild([{path: "", component: ColorDemo}]),
         DocWrapperModule
     ],
     declarations: [

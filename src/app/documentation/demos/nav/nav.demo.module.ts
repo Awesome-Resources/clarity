@@ -29,8 +29,8 @@ import {NavCodeInfoAlert} from "./nav-code-info-alert";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
-        RouterModule,
+        ClarityModule,
+        RouterModule.forChild([{path: "", component: NavsDemo}]),
         DocWrapperModule
     ],
     declarations: [

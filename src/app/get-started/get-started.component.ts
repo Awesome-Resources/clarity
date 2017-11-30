@@ -9,7 +9,7 @@ import { AppComponent } from "./app.component";
 @NgModule({
     imports: [
         BrowserModule,
-        ClarityModule.forRoot(),
+        ClarityModule,
         ...
      ],
      declarations: [ AppComponent ],

@@ -19,8 +19,8 @@ import {TabsAngularOverflowDemo} from "./tabs-angular-overflow";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
-        RouterModule,
+        ClarityModule,
+        RouterModule.forChild([{path: "", component: TabsDemo}]),
         DocWrapperModule,
         UtilsModule
     ],

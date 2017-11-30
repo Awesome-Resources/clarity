@@ -30,9 +30,9 @@ import {IconButtonsDemo} from "./icon-buttons";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         DocWrapperModule,
-        RouterModule,
+        RouterModule.forChild([{path: "", component: ButtonsDemo}]),
         UtilsModule
     ],
     declarations: [

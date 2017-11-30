@@ -11,7 +11,6 @@
         <loc>https://vmware.github.io/clarity/community</loc>
         <changefreq>daily</changefreq>
     </url>
-
     <url>
         <loc>https://vmware.github.io/clarity/icons/clarity-icons</loc>
         <changefreq>daily</changefreq>
@@ -28,7 +27,6 @@
         <loc>https://vmware.github.io/clarity/icons/icon-sets</loc>
         <changefreq>daily</changefreq>
     </url>
-
     <url>
         <loc>https://vmware.github.io/clarity/documentation</loc>
         <changefreq>daily</changefreq>
@@ -261,10 +259,60 @@
         <loc>https://vmware.github.io/clarity/documentation/wizards</loc>
         <changefreq>daily</changefreq>
     </url>
-
-
     <url>
         <loc>https://vmware.github.io/clarity/news</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.15</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.14</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.13</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.12</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.11</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.10</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.9</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.8</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.7</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.6</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.5</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.4</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.3</loc>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -276,11 +324,19 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.0-patch</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.0</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
         <loc>https://vmware.github.io/clarity/news/0.10.0-rc.1</loc>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://vmware.github.io/clarity/news/0.10.0-patch</loc>
+        <loc>https://vmware.github.io/clarity/news/0.10.0-alpha.6</loc>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -304,11 +360,11 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://vmware.github.io/clarity/news/0.10.0</loc>
+        <loc>https://vmware.github.io/clarity/news/0.9.20</loc>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://vmware.github.io/clarity/news/0.10.0-alpha.6</loc>
+        <loc>https://vmware.github.io/clarity/news/0.9.19</loc>
         <changefreq>daily</changefreq>
     </url>
     <url>

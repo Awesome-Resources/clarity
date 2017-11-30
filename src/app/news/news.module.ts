@@ -20,7 +20,7 @@ import {Release} from "./release/release.directive";
     ],
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         UtilsModule,
         NewsRoutingModule
     ],

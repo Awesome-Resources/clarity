@@ -21,7 +21,7 @@ import {ThemesDemo} from "./themes.demo";
         CommonModule,
         FormsModule,
         ClarityModule,
-        RouterModule,
+        RouterModule.forChild([{path: "", component: ThemesDemo}]),
         DocWrapperModule,
         UtilsModule
     ],

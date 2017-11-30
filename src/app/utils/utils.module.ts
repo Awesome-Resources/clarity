@@ -10,7 +10,7 @@ import {CommonModule} from "@angular/common";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild()
+        ClarityModule
     ],
     declarations: [
         SketchTemplateLinkDirective,

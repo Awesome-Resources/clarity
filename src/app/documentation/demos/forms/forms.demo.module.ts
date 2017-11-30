@@ -26,10 +26,10 @@ import {UtilsModule} from "../../../utils/utils.module";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         FormsModule,
         ReactiveFormsModule,
-        RouterModule,
+        RouterModule.forChild([{path: "", component: FormsDemo}]),
         DocWrapperModule,
         UtilsModule
     ],

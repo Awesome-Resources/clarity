@@ -19,9 +19,9 @@ import {UtilsModule} from "../../../utils/utils.module";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule.forChild(),
+        ClarityModule,
         FormsModule,
-        RouterModule,
+        RouterModule.forChild([{path: "", component: StackViewDemo}]),
         DocWrapperModule,
         UtilsModule
     ],
