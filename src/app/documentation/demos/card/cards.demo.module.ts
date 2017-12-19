@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from "@clr/angular";
 
 import {CardOldDemo} from "./card-old";
 import {CardGridDemo} from "./card-grid";

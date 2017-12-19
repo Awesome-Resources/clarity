@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
+import {ClarityModule} from '@clr/angular';
 
 import {RadiosDemo} from "./radios.demo";
 import {RadiosTypesDemo} from "./radios-types.demo";

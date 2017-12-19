@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from "@clr/angular";
 
 import {LoginDemo} from "./login.demo";
 import {LoginExampleDemo} from "./login-example.demo";

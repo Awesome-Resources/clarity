@@ -12,7 +12,7 @@ import { isPlatformBrowser, isPlatformServer } from "@angular/common";
 import { Subscription } from "rxjs/Subscription";
 import { ActiveFragmentService } from "./utils/active-fragment.service";
 import { Router, NavigationEnd } from "@angular/router";
-import { EssentialShapes } from "clarity-icons/shapes/essential-shapes";
+import { EssentialShapes } from "@clr/icons/shapes/essential-shapes";
 import { style, state, animate, transition, trigger } from "@angular/animations";
 import { IconsViewService } from "./icons-view.service";
 

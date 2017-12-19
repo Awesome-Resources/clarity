@@ -1,7 +1,7 @@
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {BrowserModule, Title} from "@angular/platform-browser";
 import {NgModule} from "@angular/core";
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from "@clr/angular";
 import {BrowserPrebootModule} from "preboot/browser";
 
 import {AppRoutingModule} from "./app-routing.module";

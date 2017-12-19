@@ -148,6 +148,10 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
+        <loc>https://vmware.github.io/clarity/documentation/datagrid/compact</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
         <loc>https://vmware.github.io/clarity/documentation/datagrid/full</loc>
         <changefreq>daily</changefreq>
     </url>
@@ -261,6 +265,18 @@
     </url>
     <url>
         <loc>https://vmware.github.io/clarity/news</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.18</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.17</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://vmware.github.io/clarity/news/0.10.16</loc>
         <changefreq>daily</changefreq>
     </url>
     <url>

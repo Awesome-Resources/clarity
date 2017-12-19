@@ -8,7 +8,7 @@ import {CommonModule} from "@angular/common";
 import {FormsModule} from "@angular/forms";
 import {Routes, RouterModule} from "@angular/router";
 
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from "@clr/angular";
 
 import {DatagridBasicStructureDemo} from "./basic-structure/basic-structure";
 import {DatagridBatchActionDemo} from "./batch-action/batch-action";

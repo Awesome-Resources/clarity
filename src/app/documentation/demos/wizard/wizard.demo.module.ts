@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from "@clr/angular";
 import {FormsModule} from "@angular/forms";
 
 import {WizardStaticDemo} from "./wizard-static.demo";

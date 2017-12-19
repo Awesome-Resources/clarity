@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from "@clr/angular";
 
 import {BadgeColorsDemo} from "./badge-colors";
 import {BadgeStatusesDemo} from "./badge-statuses";

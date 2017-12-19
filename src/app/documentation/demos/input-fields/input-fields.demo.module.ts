@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from "@clr/angular";
 import {InputFieldsDemo} from "./input-fields.demo";
 import {InputFieldsTypesDemo} from "./input-fields-types.demo";
 import {RouterModule} from "@angular/router";

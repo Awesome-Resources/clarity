@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from "@clr/angular";
 
 import {TogglesDemo} from "./toggles.demo";
 import {TogglesExampleDemo} from "./toggles-example.demo";
